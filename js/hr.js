@@ -1,7 +1,11 @@
-window.onload = function(){
-if(localStrorage.auth == false)
-{
-	alert("go back");
-	window.location.href = 'login.html';
+if(localStorage.auth == "false"){
+	alert("BYE");
+	window.location.href = 'index.html';
 }
-};
+else
+alert("HI");
+
+var logout = function(){
+	localStorage.auth == false;
+	window.location.href = 'index.html';
+}
