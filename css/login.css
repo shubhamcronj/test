@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+header{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #321;
+	color: white;
+}
+h1{
+	margin: 0;
+	padding: 0;
+}
+article{
+	margin: auto;
+	margin-top: 100px;
+	width: 300px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #222;
+	border-radius: 5px;
+}
+article h2{
+	margin: 0;
+	padding: 0;
+	color: white;
+	background: #987;
+	border-radius: 5px;
+}
+article input {
+	text-align: center;
+}
+section{
+	width: 10%;
+	border-right: 1px solid black;
+}
+section div{
+	margin: 0;
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+section div:hover{
+	color: red;
+}
+section div h3{
+	margin: 0;
+	padding: 0;
+}
