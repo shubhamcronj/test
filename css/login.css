@@ -2,17 +2,18 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: #ddd;
+	text-align: center;
 }
 header{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background-color: #321;
+	background-color: #008080;
 	color: white;
 }
 h1{
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 }
 article{
 	margin: auto;
@@ -20,33 +21,68 @@ article{
 	width: 300px;
 	vertical-align: middle;
 	text-align: center;
-	background-color: #222;
-	border-radius: 5px;
+	background-color: #004040;
+	border-radius: 10px 0 10px 0;
+	padding-bottom: 10px;
 }
 article h2{
 	margin: 0;
 	padding: 0;
 	color: white;
-	background: #987;
-	border-radius: 5px;
+	border-radius: 10px 0 0 0;
+	background: #008080;
 }
 article input {
 	text-align: center;
 }
 section{
-	width: 10%;
-	border-right: 1px solid black;
+	width: 100%;
+	margin: auto;
 }
 section div{
 	margin: 0;
-	padding: 10px;
-	text-align: left;
+	padding: 10px 0 10px 0;
+	text-align: center;
 	border-bottom: 1px solid black;
+	display: inline-block;
+	width: 24%;
 }
 section div:hover{
-	color: red;
+	color: white;
+	background-color: #009090;
+	cursor: pointer;
 }
 section div h3{
 	margin: 0;
 	padding: 0;
+}
+#hr_article{
+	margin-top: 50px;
+}
+#view_block{
+	display: none;
+}
+#add_block{
+	display: none;
+	background-color: #004040;
+	width: 20%;
+	margin: auto;
+	padding-bottom: 10px;
+	border-radius: 10px 0 10px 0px;
+}
+#add_block input{
+	text-align: center;
+}
+#remark_block{
+	display: none;
+}
+#dispFound{
+	display: none;
+	background-color: #004040;
+	width: 30%;
+	margin: auto;
+	padding-bottom: 10px;
+	border-radius: 10px 0 10px 0px;
+	color: white;
+	text-align: center;
 }

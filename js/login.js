@@ -14,6 +14,6 @@ function authenticate()
 	}
 	else
 	{
-		alert("FAIL "+ id + " " + pass);
+		alert("Wrong Credentials");
 	}
 }
